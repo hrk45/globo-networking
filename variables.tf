@@ -17,7 +17,7 @@ variable "environment" {
   type        = string
   description = "(Optional) Environment to use for all resources in this module. Default: dev"
 
-  
+
 }
 variable "cidr_block" {
   type        = string
