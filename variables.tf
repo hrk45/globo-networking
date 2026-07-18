@@ -27,11 +27,9 @@ variable "cidr_block" {
 variable "billing_code" {
   type        = string
   description = "(Optional) Billing code to use for all resources in this module. Default: 123456"
-
 }
 variable "public_subnets" {
   type        = map(string)
   description = "(Optional) Map of public subnets to create with CIDR blocks. Key will be used as subnet name with prefix. Default: {subnet-1 ="
-  
 }
 
