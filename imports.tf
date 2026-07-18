@@ -4,7 +4,7 @@
 
 import {
   to = module.main.aws_vpc.this[0]
-  id = "vpc-003aed148fd305e22" #VPC
+  id = "vpc-001eb9576aa33fe2c" #VPC
 }
 
 import {
